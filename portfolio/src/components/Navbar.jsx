@@ -3,6 +3,7 @@ import { Link as LinkR } from "react-router-dom";
 import styled, { useTheme } from "styled-components";
 import { Bio } from "../data/constants";
 import { MenuRounded } from "@mui/icons-material";
+import logo from '../images/logo.png';
 
 const Nav = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -139,9 +140,10 @@ const Navbar = () => {
     <Nav>
       <NavbarContainer>
         <NavLogo to="/">
-          <ColorText>&lt;</ColorText>Ahmad 
+          {/* <ColorText>&lt;</ColorText>Ahmad 
           <div style={{ color: theme.primary }}>/</div>Midlaj 
-          <ColorText>&gt;</ColorText>
+          <ColorText>&gt;</ColorText> */}
+          <img src ={logo} alt="" className="logo" />
         </NavLogo>
 
         <MobileIcon onClick={() => setIsOpen(!isOpen)}>
