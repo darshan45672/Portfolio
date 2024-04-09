@@ -1,13 +1,13 @@
 export const Bio = {
-    name: "Ahmad Midlaj B",
+    name: "Darshan Bhandary",
     roles: [
         "Full Stack Developer",
-        "Android Developer",
+        "Entrepreneur",
         "UI/UX Designer",
         "Programmer",
     ],
     description: "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
-    github: "https://github.com/Ahmadmidlaj",
+    github: "https://github.com/darshan45672",
     resume: "https://drive.google.com/file/d/1ZGN_Z-vvT1dY-zzhubw_muovmXrPwkcz/view?usp=drive_link",
     linkedin: "https://www.linkedin.com/in/ahmad-midlaj-b-5b325526b/",
 
