@@ -119,7 +119,7 @@ const Footer = () => {
 </SocialMediaIcon>
 
         
-        <Copyright>&copy; 2024 Ahmad Midlaj B. All rights reserved.</Copyright>
+        <Copyright>&copy; 2024 Darshan Bhandary. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );
