@@ -1,5 +1,6 @@
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import TwitterIcon from "@mui/icons-material/Twitter";
 import React from "react";
 import styled from "styled-components";
 import { Bio } from "../../data/constants";
@@ -100,9 +101,9 @@ const Footer = () => {
           {/* <SocialMediaIcon href={Bio.facebook} target="display">
             <FacebookIcon />
           </SocialMediaIcon> */}
-          {/* <SocialMediaIcon href={Bio.twitter} target="display">
+          <SocialMediaIcon href={Bio.twitter} target="display">
             <TwitterIcon />
-          </SocialMediaIcon> */}
+          </SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="display">
             <LinkedInIcon />
           </SocialMediaIcon>
