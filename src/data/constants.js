@@ -10,9 +10,8 @@ export const Bio = {
     github: "https://github.com/darshan45672",
     resume: "https://drive.google.com/file/d/1ZGN_Z-vvT1dY-zzhubw_muovmXrPwkcz/view?usp=drive_link",
     linkedin: "https://www.linkedin.com/in/ahmad-midlaj-b-5b325526b/",
-
-    insta: "https://www.instagram.com/midlaj_bk/",
-
+    insta: "https://www.instagram.com/mr_dare_striker/",
+    twitter: "https://twitter.com/Darshan_Bhandry",
 };
 
 export const skills = [{
