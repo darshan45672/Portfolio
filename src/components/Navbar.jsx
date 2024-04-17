@@ -140,10 +140,10 @@ const Navbar = () => {
     <Nav>
       <NavbarContainer>
         <NavLogo to="/">
-          {/* <ColorText>&lt;</ColorText>Ahmad 
-          <div style={{ color: theme.primary }}>/</div>Midlaj 
-          <ColorText>&gt;</ColorText> */}
-          <img src ={logo} alt="" className="logo" />
+          <ColorText>&lt;</ColorText>Darshan 
+          <div style={{ color: theme.primary }}>/</div>Bhandary
+          <ColorText>&gt;</ColorText>
+          {/*<img src ={logo} alt="" className="logo" />*/}
         </NavLogo>
 
         <MobileIcon onClick={() => setIsOpen(!isOpen)}>
