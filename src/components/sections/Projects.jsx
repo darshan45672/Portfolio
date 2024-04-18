@@ -115,7 +115,7 @@ const Projects = ({ openModal, setOpenModal }) => {
             PROJECTS
           </ToggleButton>
           <Divider />
-          {/* <ToggleButton
+          <ToggleButton
             active={toggle === "web app"}
             onClick={() => setToggle("web app")}
           >
@@ -128,13 +128,13 @@ const Projects = ({ openModal, setOpenModal }) => {
           >
             ANDROID APP'S
           </ToggleButton>
-          <Divider /> */}
-          {/* <ToggleButton
+          <Divider />
+          <ToggleButton
             active={toggle === "machine learning"}
             onClick={() => setToggle("machine learning")}
           >
             MACHINE LEARNING
-          </ToggleButton> */}
+          </ToggleButton>
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === "all" &&
