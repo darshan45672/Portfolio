@@ -1,7 +1,7 @@
 
  import {  useState } from "react"; 
 import styled from "styled-components";
-import emailjs from "@emailjs/browser";
+// import emailjs from "@emailjs/browser";
 import EarthCanvas from "../canvas/Earth";
 import axios from 'axios';
 
