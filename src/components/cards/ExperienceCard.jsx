@@ -42,7 +42,7 @@ const Company = styled.div`
   }
 `;
 const Date = styled.div`
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 400px;
   color: ${({ theme }) => theme.text_secondary + 80};
 
@@ -129,7 +129,7 @@ const ExperienceCard = ({ experience }) => {
         <Body>
           <Role>{experience.role}</Role>
           <Company>{experience.company}</Company>
-          <Date>{experience.date}</Date>
+          <Date><b>{experience.date}</b></Date>
         </Body>
       </Top>
       <Description>
