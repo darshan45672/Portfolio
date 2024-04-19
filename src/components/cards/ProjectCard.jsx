@@ -247,7 +247,7 @@ const Button = styled.a`
 const ProjectCard = ({ project }) => {
   return (
     <Card>
-      {/* <Image src={project.image} /> */}
+      <Image src={project.image} />
       <Tags>
         {project.tags?.map((tag, index) => (
           <Tag key={index}>{tag}</Tag>
@@ -262,6 +262,8 @@ const ProjectCard = ({ project }) => {
         {project.member?.map((member, index) => (
           <Avatar key={index} src={member.img} />
         ))}
+        <Button href={project.github}>View Project</Button>
+        <Button href={project.webapp}>View Project</Button>
       </Members>
     </Card>
   );

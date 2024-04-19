@@ -381,61 +381,16 @@ export const education = [
 
 export const projects = [
   {
-    id: 11,
-    title: "VideoStreamer",
+    id: 0,
+    title: "Blood Bank Management System",
     date: "Aug 2023 - Oct 2023",
     description:
       "VideoStreamer is a dynamic and user-friendly video streaming application built using React framework and APIs. With VideoVerse, users can access a vast library of videos, ranging from movies, TV shows, tutorials, and more, all in one convenient platform..",
     image:
-      "https://drive.google.com/file/d/1Cm2Wo77xA_Mh5TlWNDBvjDBptemm8odS/view?usp=sharing",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8D-qrXbEW2NWM8bal99w2uRF7YKrL6KMZTcHgan-U9A&s",
     tags: ["React Js", "Rest API"],
     category: "web app",
     github: "https://github.com/Ahmadmidlaj/VideoStreamingApp",
     webapp: "https://lovely-sprinkles-7289fd.netlify.app/",
   },
-  {
-    id: 9,
-    title: "Strict Web Browser",
-    date: "Jan 2023 - Feb 2023",
-    description:
-      "This Java and XML-based web browser project integrates Java for backend functionality and XML for user interface design, offering users a lightweight, intuitive platform to browse specific websites. Its features include seamless web content retrieval, organized display layouts, and essential navigation controls, enhancing user interaction and accessibility during browsing sessions.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
-    tags: ["Java", "XML"],
-    category: "web app",
-    github: "https://github.com/",
-    webapp: "https://trackify-management.netlify.app/",
-  },
-  {
-    id: 0,
-    title: "Farm Management System",
-    date: "Sep 2022 - Oct 2022",
-    description:
-      "The Farm Management System integrates MySQL, Python Flask, HTML, and CSS to offer farmers a streamlined platform for crop management, inventory tracking, and financial analysis. Through intuitive interfaces and robust backend functionalities, it enhances efficiency and decision-making processes, optimizing productivity in agricultural operations.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    tags: ["MySQL", "Python Flask", "HTML", "CSS"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://podstream.netlify.app/",
-  },
-  // {
-  //     id: 1,
-  //     title: "Vexa",
-  //     date: "Oct 2022 - Jan 2023",
-  //     description: "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
-  //     image: "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
-  //     tags: [
-  //         "React Js",
-  //         "MongoDb",
-  //         "Node Js",
-  //         "Express Js",
-  //         "Redux",
-  //         "NodeMailer",
-  //     ],
-  //     category: "web app",
-  //     github: "https://github.com/rishavchanda/Project-Management-App",
-  //     webapp: "https://vexa-app.netlify.app/",
-  // },
-  // {
 ];
