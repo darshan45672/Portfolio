@@ -59,6 +59,7 @@ const Grade = styled.div`
   }
 `;
 
+
 const Description = styled.div`
   width: 100%;
   font-size: 15px;
