@@ -135,8 +135,8 @@ import React from "react";
 import styled from "styled-components";
 
 const Card = styled.div`
-  width: 330px;
-  height: 490px;
+  width: 380px;
+  height: 580px;
   background-color: ${({ theme }) => theme.card};
   cursor: pointer;
   border-radius: 10px;
@@ -263,7 +263,7 @@ const ProjectCard = ({ project }) => {
           <Avatar key={index} src={member.img} />
         ))}
         <Button href={project.github}>View Project</Button>
-        <Button href={project.webapp}>View Project</Button>
+        {/* <Button target="blank" href={project.webapp}>View Project</Button> */}
       </Members>
     </Card>
   );
