@@ -1,9 +1,9 @@
 
- import {  useState } from "react"; 
+import {  useRef } from "react"; 
 import styled from "styled-components";
-// import emailjs from "@emailjs/browser";
+import emailjs from "@emailjs/browser";
 import EarthCanvas from "../canvas/Earth";
-import axios from 'axios';
+// import axios from 'axios';
 
 
 const Container = styled.div`
@@ -128,69 +128,27 @@ const ContactButton = styled.input`
   font-weight: 600;
 `;
 
-// const Contact = () => {
-//   const form = useRef();
-
-//   const handleSubmit = (e) => {
-//     e.preventDefault();
-//     emailjs
-//       .sendForm(
-//         "service_6qlehta",
-//         "template_ckzbobh",
-//         form.current,
-//         "WAgIOugGjSWxT2wOM"
-//       )
-//       .then(
-//         (result) => {
-//           alert("Message Sent");
-//           form.current.reset();
-//         },
-//         (error) => {
-//           alert(error);
-//         }
-//       );
-//   };
-
-
-  // const EmailRestAPI = () => {
   const Contact = () => {
+    const form = useRef();
 
-    const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
-    const [message, setMessage] = useState('');
-  
-    const handleSubmit = async (e) => {
-      e.preventDefault();
-  
-      // Your EmailJS service ID, template ID, and Public Key
-      const serviceId = 'service_6qlehta';
-      const templateId = 'template_ckzbobh';
-      const publicKey = 'WAgIOugGjSWxT2wOM';
-  
-      // Create an object with EmailJS service ID, template ID, Public Key, and Template params
-      const data = {
-        service_id: serviceId,
-        template_id: templateId,
-        user_id: publicKey,
-        template_params: {
-          from_name: name,
-          from_email: email,
-          to_name: 'Ahmad Midlaj',
-          message: message,
-        }
-      };
-  
-      // Send the email using EmailJS
-      try {
-        const res = await axios.post("https://api.emailjs.com/api/v1.0/email/send", data);
-        console.log(res.data);
-        setName('');
-        setEmail('');
-        setMessage('');
-      } catch (error) {
-        console.error(error);
-      }
-    }
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_4e15coy', 'template_zb9sn3l', form.current, {
+        publicKey: 'vUyh2BIdR8CHMb9EY',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+          alert('EMAIL SUCCESSFULLY!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+          alert('EMAIL FAILED !...', error.text);
+        },
+      );
+  };
 
   return (
     <Container>
@@ -200,13 +158,12 @@ const ContactButton = styled.input`
         <Desc>
           Feel free to reach out to me for any questions or opportunities!
         </Desc>
-        <ContactForm onSubmit={handleSubmit} className="emailForm">
+        <ContactForm ref={form} onSubmit={sendEmail} className="emailForm">
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email"   value={email}  onChange={(e) => setEmail(e.target.value)} />
-          <ContactInput placeholder="Your Name" name="from_name"  value={name}  onChange={(e) => setName(e.target.value)} />
-          {/* <ContactInput placeholder="Subject" name="subject" /> */}
-          <ContactInputMessage placeholder="Message" name="message" rows={4}  value={message}
-          onChange={(e) => setMessage(e.target.value)}/>
+          <ContactInput placeholder="Your Email" name="email_id" />
+          <ContactInput placeholder="Your Name" name="from_name"  />
+          <ContactInput placeholder="Subject" name="subject" />
+          <ContactInputMessage placeholder="Message" name="message" rows={4} />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
       </Wrapper>
