@@ -3,6 +3,8 @@ import {  useRef } from "react";
 import styled from "styled-components";
 import emailjs from "@emailjs/browser";
 import EarthCanvas from "../canvas/Earth";
+import {  toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 // import axios from 'axios';
 
 
@@ -141,11 +143,13 @@ const ContactButton = styled.input`
       .then(
         () => {
           console.log('SUCCESS!');
-          alert('EMAIL SUCCESSFULLY!');
+          // alert('EMAIL SUCCESSFULLY!');
+          toast("EMAIL SENT SUCCESSFULLY!!")
         },
         (error) => {
           console.log('FAILED...', error.text);
-          alert('EMAIL FAILED !...', error.text);
+          // alert('EMAIL FAILED !...', error.text);
+          toast("FAILED TO SEND YOUR MAIL!")
         },
       );
   };

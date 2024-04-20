@@ -13,6 +13,7 @@ import Contact from "./components/sections/Contact";
 import Footer from "./components/sections/Footer";
 import ProjectDetails from "./components/Dialog/ProjectDetails";
 import { useState } from "react";
+import { ToastContainer} from 'react-toastify';
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -43,6 +44,7 @@ function App() {
     <ThemeProvider theme={darkTheme}>
       <BrowserRouter>
         <Navbar />
+        <ToastContainer />
         <Body>
           <StarCanvas />
           <AnimatePresence>
