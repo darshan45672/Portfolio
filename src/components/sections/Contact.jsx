@@ -1,12 +1,10 @@
-
-import {  useRef } from "react"; 
+import { useRef } from "react";
 import styled from "styled-components";
 import emailjs from "@emailjs/browser";
 import EarthCanvas from "../canvas/Earth";
-import {  toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 // import axios from 'axios';
-
 
 const Container = styled.div`
   display: flex;
@@ -102,6 +100,10 @@ const ContactInputMessage = styled.textarea`
   }
 `;
 const ContactButton = styled.input`
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
   width: 100%;
   text-decoration: none;
   text-align: center;
@@ -130,21 +132,21 @@ const ContactButton = styled.input`
   font-weight: 600;
 `;
 
-  const Contact = () => {
-    const form = useRef();
+const Contact = () => {
+  const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_4e15coy', 'template_zb9sn3l', form.current, {
-        publicKey: 'vUyh2BIdR8CHMb9EY',
+      .sendForm("service_4e15coy", "template_zb9sn3l", form.current, {
+        publicKey: "vUyh2BIdR8CHMb9EY",
       })
       .then(
         () => {
-          console.log('SUCCESS!');
+          console.log("SUCCESS!");
           // alert('EMAIL SUCCESSFULLY!');
-          toast("EMAIL SENT SUCCESSFULLY!!",{
+          toast("EMAIL SENT SUCCESSFULLY!!", {
             position: "top-right",
             autoClose: 5000,
             hideProgressBar: false,
@@ -153,13 +155,13 @@ const ContactButton = styled.input`
             draggable: true,
             progress: undefined,
             theme: "dark",
-            })
+          });
         },
         (error) => {
-          console.log('FAILED...', error.text);
+          console.log("FAILED...", error.text);
           // alert('EMAIL FAILED !...', error.text);
-          toast("FAILED TO SEND YOUR MAIL!")
-        },
+          toast("FAILED TO SEND YOUR MAIL!");
+        }
       );
   };
 
@@ -173,10 +175,10 @@ const ContactButton = styled.input`
         </Desc>
         <ContactForm ref={form} onSubmit={sendEmail} className="emailForm">
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="email_id" />
-          <ContactInput placeholder="Your Name" name="from_name"  />
-          <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" name="message" rows={4} />
+          <ContactInput type="email" placeholder="Your Email" name="email_id" required />
+          <ContactInput type="text" placeholder="Your Name" name="from_name" required/>
+          <ContactInput type="text" placeholder="Subject" name="subject" required />
+          <ContactInputMessage type="text" placeholder="Message" name="message" rows={4} required />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
       </Wrapper>

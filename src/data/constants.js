@@ -422,7 +422,7 @@ export const projects = [
     title: "Blood Bank Management System",
     date: "Aug 2023 - Oct 2023",
     description:
-      "VideoStreamer is a dynamic and user-friendly video streaming application built using React framework and APIs. With VideoVerse, users can access a vast library of videos, ranging from movies, TV shows, tutorials, and more, all in one convenient platform..",
+    "lalallalalaaaaaaaaaaaaaaaaaaaaa",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8D-qrXbEW2NWM8bal99w2uRF7YKrL6KMZTcHgan-U9A&s",
     tags: ["React Js", "Rest API"],
