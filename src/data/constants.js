@@ -10,7 +10,7 @@ export const Bio = {
     "Welcome to the creative world of Darshan Bhandary. I'm a Developer specializing in Software Development, Web Desgin and Developing , passionate about transforming ideas into immersive digital experiences. Let's collaborate and bring your vision to life!",
   github: "https://github.com/darshan45672",
   resume:
-    "https://drive.google.com/file/d/1ZGN_Z-vvT1dY-zzhubw_muovmXrPwkcz/view?usp=drive_link",
+    "/",
   linkedin: "https://www.linkedin.com/in/darshan-bhandary-b8691a249/",
   insta: "https://www.instagram.com/mr_dare_striker/",
   twitter: "https://twitter.com/Darshan_Bhandry",
@@ -217,6 +217,43 @@ export const skills = [
         name: "TypeScript",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
+      },
+    ],
+  },
+  {
+    title: "Cloud Services and Servers",
+    skills:[
+      { 
+        name: "AWS",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+      },
+      {
+        name: "Azure",
+        image: "https://swimburger.net/media/ppnn3pcl/azure.png",
+      },
+      {
+        name: "Google Cloud",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original-wordmark.svg",
+      },
+      {
+        name: "Heroku",
+        image: "https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg",
+      },
+      {
+        name: "Netlify",
+        image: "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+      },
+      {
+        name: "Vercel",
+        image: "https://www.vectorlogo.zone/logos/vercel/vercel-icon.svg",
+      },
+      {
+        name: "Digital Ocean",
+        image: "https://www.vectorlogo.zone/logos/digitalocean/digitalocean-icon.svg",
+      },
+      {
+        name: "Firebase",
+        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
       },
     ],
   },
