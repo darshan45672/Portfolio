@@ -430,4 +430,7 @@ export const projects = [
     github: "https://github.com/Ahmadmidlaj/VideoStreamingApp",
     webapp: "https://lovely-sprinkles-7289fd.netlify.app/",
   },
+  {
+    id: 1,
+  }
 ];
