@@ -422,7 +422,7 @@ export const projects = [
     title: "Blood Bank Management System",
     date: "Aug 2023 - Oct 2023",
     description:
-    "this project is ",
+    "this project is related to blood bank management ",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8D-qrXbEW2NWM8bal99w2uRF7YKrL6KMZTcHgan-U9A&s",
     tags: ["React Js", "Rest API"],
