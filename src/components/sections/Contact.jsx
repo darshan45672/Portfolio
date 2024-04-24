@@ -85,6 +85,12 @@ const ContactInput = styled.input`
   &:focus {
     border: 1px solid ${({ theme }) => theme.primary};
   }
+  &:hover {
+        transform: scale(1.05);
+    transition: all 0.4s ease-in-out;
+    box-shadow:  20px 20px 60px #1F2634,
+    filter: brightness(1);
+    } 
 `;
 const ContactInputMessage = styled.textarea`
   flex: 1;
@@ -98,6 +104,12 @@ const ContactInputMessage = styled.textarea`
   &:focus {
     border: 1px solid ${({ theme }) => theme.primary};
   }
+  &:hover {
+        transform: scale(1.05);
+    transition: all 0.4s ease-in-out;
+    box-shadow:  20px 20px 60px #1F2634,
+    filter: brightness(1);
+    } 
 `;
 const ContactButton = styled.input`
   -webkit-appearance: button;
@@ -130,6 +142,13 @@ const ContactButton = styled.input`
   color: ${({ theme }) => theme.text_primary};
   font-size: 18px;
   font-weight: 600;
+
+  &:hover {
+        transform: scale(1.05);
+    transition: all 0.4s ease-in-out;
+    box-shadow:  20px 20px 60px #1F2634,
+    filter: brightness(1);
+    } 
 `;
 
 const Contact = () => {
@@ -160,7 +179,16 @@ const Contact = () => {
         (error) => {
           console.log("FAILED...", error.text);
           // alert('EMAIL FAILED !...', error.text);
-          toast("FAILED TO SEND YOUR MAIL!");
+          toast("FAILED TO SEND YOUR MAIL!", {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "dark",
+          });
         }
       );
   };
@@ -175,10 +203,31 @@ const Contact = () => {
         </Desc>
         <ContactForm ref={form} onSubmit={sendEmail} className="emailForm">
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput type="email" placeholder="Your Email" name="email_id" required />
-          <ContactInput type="text" placeholder="Your Name" name="from_name" required/>
-          <ContactInput type="text" placeholder="Subject" name="subject" required />
-          <ContactInputMessage type="text" placeholder="Message" name="message" rows={4} required />
+          <ContactInput
+            type="email"
+            placeholder="Your Email"
+            name="email_id"
+            required
+          />
+          <ContactInput
+            type="text"
+            placeholder="Your Name"
+            name="from_name"
+            required
+          />
+          <ContactInput
+            type="text"
+            placeholder="Subject"
+            name="subject"
+            required
+          />
+          <ContactInputMessage
+            type="text"
+            placeholder="Message"
+            name="message"
+            rows={4}
+            required
+          />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
       </Wrapper>
