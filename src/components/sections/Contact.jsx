@@ -164,7 +164,6 @@ const Contact = () => {
       .then(
         () => {
           console.log("SUCCESS!");
-          // alert('EMAIL SUCCESSFULLY!');
           toast("EMAIL SENT SUCCESSFULLY!!", {
             position: "top-right",
             autoClose: 5000,
@@ -178,7 +177,6 @@ const Contact = () => {
         },
         (error) => {
           console.log("FAILED...", error.text);
-          // alert('EMAIL FAILED !...', error.text);
           toast("FAILED TO SEND YOUR MAIL!", {
             position: "top-right",
             autoClose: 5000,
