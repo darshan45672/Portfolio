@@ -96,7 +96,7 @@ const Avatar = styled.img`
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border: 3px solid ${({ theme }) => theme.card};
 `;
-// const Button = styled.a`
+// const Button = styled.a`https://github.com/headwayclan/web.git
 //   color: ${({ theme }) => theme.primary};
 //   text-decoration: none;
 //   font-weight: 600;
