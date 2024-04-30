@@ -307,6 +307,23 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: "https://github.com/darshan45672/c-progrms/assets/109609462/d4ae5f62-234e-4db7-bf99-c4738664d87a",
+    role: "Application Developer Intern",
+    company: "Headway, Mangalore",
+    date: "May 2024 - Present",
+    desc: "I volunteered at the Center for System Design NITK, contributing to the development of virtual labs and virtual reality projects. My role involved hands-on work in designing and implementing virtual labs in web and work on virtual reality projects, harnessing technology to enhance learning experiences.",
+    skills: [
+      "HTML5",
+      "CSS3",
+      "Javascript",
+      "P5.JS",
+      "Unity",
+      "UnReal"
+    ],
+    // doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Screenshot%20from%202024-01-25%2022-38-31.png?alt=media&token=2785903f-1a4e-41f5-afd2-6adcfe56d058",
+  },
+  {
+    id: 1,
     img: "https://govindjeevan.github.io/images/NITK_logo.png",
     role: "Virtual Lab Developer Volunteer",
     company: "Center for System Design, NITK",
@@ -323,7 +340,7 @@ export const experiences = [
     // doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Screenshot%20from%202024-01-25%2022-38-31.png?alt=media&token=2785903f-1a4e-41f5-afd2-6adcfe56d058",
   },
   {
-    id: 1,
+    id: 2,
     img: "https://govindjeevan.github.io/images/NITK_logo.png",
     role: "Virtual Lab Developer Intern",
     company: "Center for System Design, NITK",
@@ -339,7 +356,7 @@ export const experiences = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     img: "https://github.com/darshan45672/c-progrms/assets/109609462/3b72deb4-2f3a-474c-8943-1ec87f72c4b8",
     role: "Web Designer",
     company: "Klientship",
@@ -354,7 +371,7 @@ export const experiences = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     img: "https://github.com/darshan45672/Portfolio/assets/109609462/e859b403-8c2f-46c2-8de0-768ffd7bc86d",
     role: "Web Designer",
     company: "Market Bird ",
@@ -371,7 +388,7 @@ export const experiences = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     img: "https://media.licdn.com/dms/image/D560BAQFV0JYJ33yONg/company-logo_200_200/0/1691701552297/bharat_intern_logo?e=2147483647&v=beta&t=-sDv95pGdL1U0O5_PI5teiuiB8D1SVcyswsXm3CE7RU",
     role: "Basic Web Development ",
     company: "Bharat Intern",
