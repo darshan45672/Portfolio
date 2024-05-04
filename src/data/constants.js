@@ -480,7 +480,7 @@ export const projects = [
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8D-qrXbEW2NWM8bal99w2uRF7YKrL6KMZTcHgan-U9A&s",
     tags: ["React Js", "Rest API"],
-    category: "web app",
+    category: "wordpress",
     github: "https://github.com/Ahmadmidlaj/VideoStreamingApp",
     webapp: "https://lovely-sprinkles-7289fd.netlify.app/",
   },{
@@ -492,7 +492,7 @@ export const projects = [
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8D-qrXbEW2NWM8bal99w2uRF7YKrL6KMZTcHgan-U9A&s",
     tags: ["React Js", "Rest API"],
-    category: "web app",
+    category: "wordpress",
     github: "https://github.com/Ahmadmidlaj/VideoStreamingApp",
     webapp: "https://lovely-sprinkles-7289fd.netlify.app/",
   },{
@@ -504,8 +504,18 @@ export const projects = [
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8D-qrXbEW2NWM8bal99w2uRF7YKrL6KMZTcHgan-U9A&s",
     tags: ["React Js", "Rest API"],
-    category: "web app",
+    category: "wordpress",
     github: "https://github.com/Ahmadmidlaj/VideoStreamingApp",
+    webapp: "https://lovely-sprinkles-7289fd.netlify.app/",
+  },{
+    id: 6,
+    title: "Portfolio",
+    date: "Aug 2023 - Oct 2023",
+    description:"this project is related to a software that helps to manage the events of the college",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8D-qrXbEW2NWM8bal99w2uRF7YKrL6KMZTcHgan-U9A&s",
+    tags: ["React Js", "Rest API"],
+    category: "static",
+    github: "", 
     webapp: "https://lovely-sprinkles-7289fd.netlify.app/",
   }
 ];
