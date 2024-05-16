@@ -341,7 +341,7 @@ export const experiences = [
   },
   {
     id: 2,
-    img: "https://govindjeevan.github.io/images/NITK_logo.png",
+    img: "https://github.com/darshan45672/bank/assets/109609462/7db80061-81a0-4293-9d0f-2acbdcf4de69",
     role: "Virtual Lab Developer Intern",
     company: "Center for System Design, NITK",
     date: "October 2023 - November 2023",
