@@ -64,11 +64,14 @@ const Desc = styled.div`
 `;
 
 const Image = styled.img`
-  width: 100%;
+  width: 80%;
   object-fit: cover;
   border-radius: 12px;
   margin-top: 30px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
 `;
 
 const Label = styled.div`
