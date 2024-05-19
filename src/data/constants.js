@@ -255,6 +255,10 @@ export const skills = [
         name: "Firebase",
         image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
       },
+      {
+        name: "appwrite",
+        image: "https://github.com/darshan45672/c-progrms/assets/109609462/b5bf2544-ff2b-44e7-b502-a09143bd468b",
+      }
     ],
   },
   {
@@ -311,14 +315,14 @@ export const experiences = [
     role: "Application Developer Intern",
     company: "Headway, Mangalore",
     date: "May 2024 - Present",
-    desc: "I volunteered at the Center for System Design NITK, contributing to the development of virtual labs and virtual reality projects. My role involved hands-on work in designing and implementing virtual labs in web and work on virtual reality projects, harnessing technology to enhance learning experiences.",
+    desc: "At Headway, I developed a state-of-the-art job hiring application using TypeScript, Next.js, Neon.js, PostgreSQL, and Prisma. This project enhanced user experience and streamlined job postings, showcasing my ability to leverage modern tech stacks for effective solutions.",
     skills: [
-      "HTML5",
-      "CSS3",
-      "Javascript",
-      "P5.JS",
-      "Unity",
-      "UnReal"
+      "TypeScript",
+      "Next.js",
+      "Neon.js",
+      "PostgreSQL",
+      "Prisma",
+      "User Experience Design"
     ],
     // doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Screenshot%20from%202024-01-25%2022-38-31.png?alt=media&token=2785903f-1a4e-41f5-afd2-6adcfe56d058",
   },
@@ -439,38 +443,38 @@ export const projects = [
     title: "Blood Bank Management System",
     date: "Aug 2023 - Oct 2023",
     description:
-    "this project is related to blood bank management ",
+    "The Blood Bank and Donor Management System is a web application developed using PHP, Bootstrap, and MySQL to streamline the process of managing blood donations and donor information. It offers an intuitive interface for both administrators and donors, featuring functionalities like donor registration, blood inventory management, appointment scheduling, and automated notifications. The system facilitates efficient matching of donors with recipients based on blood type and location, while also providing detailed reporting and analytics to support blood donation campaigns and inventory management. This solution aims to enhance the operational efficiency of blood banks and ensure a steady supply of blood for those in need.",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8D-qrXbEW2NWM8bal99w2uRF7YKrL6KMZTcHgan-U9A&s",
-    tags: ["React Js", "Rest API"],
+    tags: ["PHP", "MySQL", "Bootstrap"],
     category: "web app",
-    github: "https://github.com/Ahmadmidlaj/VideoStreamingApp",
-    webapp: "https://lovely-sprinkles-7289fd.netlify.app/",
+    github: "https://github.com/darshan45672/Blood-Bank-and-Donor-Management-system",
+    webapp: "",
   },
   {
     id: 1,
     title: "Yoojak",
     date: "Aug 2023 - Oct 2023",
     description:
-    "this project is related to a software that helps to manage the placements of students",
+    "Yoojak is a placement management portal designed to automate the placement process and reduce manual work. Developed using Laravel 11, Livewire, Filament, and MySQL, Yoojak offers scalability and flexibility to efficiently manage placement activities. It streamlines tasks such as student registrations, job postings, application tracking, and interview scheduling, providing a seamless experience for administrators, students, and recruiters. By leveraging modern web technologies, Yoojak ensures a reliable and user-friendly platform for managing campus placements",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8D-qrXbEW2NWM8bal99w2uRF7YKrL6KMZTcHgan-U9A&s",
-    tags: ["React Js", "Rest API"],
+    tags: ["Laravel 11", "Livewire", "Filament", "MySQL"],
     category: "web app",
-    github: "https://github.com/Ahmadmidlaj/VideoStreamingApp",
-    webapp: "https://lovely-sprinkles-7289fd.netlify.app/",
+    github: "https://github.com/darshan45672/Yoojak",
+    webapp: "",
   },{
     id: 2,
     title: "Eventopia",
     date: "Aug 2023 - Oct 2023",
     description:
-    "this project is related to a software that helps to manage the events of the college",
+    "Eventopia is an advanced event management software developed to automate and streamline the management of events within an institution. Utilizing the MERN stack along with Reactstrap, Nest.js, Next.js, JWT, Redux, Axios, Prisma, GraphQL, AWS, and Docker, Eventopia delivers high performance and scalability. With server-side rendering (SSR) for enhanced speed and efficiency, Eventopia provides robust features for event scheduling, registration, attendee tracking, and real-time updates. This comprehensive solution ensures a seamless and efficient event management experience, catering to the diverse needs of administrators and participants.",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8D-qrXbEW2NWM8bal99w2uRF7YKrL6KMZTcHgan-U9A&s",
-    tags: ["React Js", "Rest API"],
+    tags: ["Next.js", "MongoDB", "GraphQL", "AWS", "Docker", "Redux", "JWT", "Prisma", "Axios", "Reactstrap", "Nest.js", "MERN Stack", "SSR"],
     category: "web app",
-    github: "https://github.com/Ahmadmidlaj/VideoStreamingApp",
-    webapp: "https://lovely-sprinkles-7289fd.netlify.app/",
+    github: "https://github.com/darshan45672/Eventopia",
+    webapp: "",
   },{
     id: 3,
     title: "Vyapaar Sampark",
@@ -481,8 +485,8 @@ export const projects = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8D-qrXbEW2NWM8bal99w2uRF7YKrL6KMZTcHgan-U9A&s",
     tags: ["React Js", "Rest API"],
     category: "wordpress",
-    github: "https://github.com/Ahmadmidlaj/VideoStreamingApp",
-    webapp: "https://lovely-sprinkles-7289fd.netlify.app/",
+    github: "",
+    webapp: "https://vyaparsampark.com/",
   },{
     id: 4,
     title: "Buy Bee",
@@ -493,8 +497,8 @@ export const projects = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8D-qrXbEW2NWM8bal99w2uRF7YKrL6KMZTcHgan-U9A&s",
     tags: ["React Js", "Rest API"],
     category: "wordpress",
-    github: "https://github.com/Ahmadmidlaj/VideoStreamingApp",
-    webapp: "https://lovely-sprinkles-7289fd.netlify.app/",
+    github: "",
+    webapp: "https://buyybee.com/",
   },{
     id: 5,
     title: "Shobha Digitals",
