@@ -504,7 +504,7 @@ export const projects = [
     title: "Shobha Digitals",
     date: "Aug 2023 - Oct 2023",
     description:
-    "this project is related to a software that helps to manage the events of the college",
+    "Shobha Digitals is a beautifully designed portfolio site created to showcase photography and attract more clients. Developed using the Divi Builder on WordPress, it features an elegant and visually appealing layout. The site is optimized for search engines, ensuring high visibility, and is built to scale efficiently with excellent load times. Shobha Digitals offers a seamless user experience, making it an ideal platform for photographers to display their work and connect with potential clients.",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8D-qrXbEW2NWM8bal99w2uRF7YKrL6KMZTcHgan-U9A&s",
     tags: ["React Js", "Rest API"],
