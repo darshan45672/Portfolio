@@ -468,7 +468,7 @@ export const projects = [
     title: "Eventopia",
     date: "Aug 2023 - Oct 2023",
     description:
-    "Eventopia is an advanced event management software developed to automate and streamline the management of events within an institution. Utilizing the MERN stack along with Reactstrap, Nest.js, Next.js, JWT, Redux, Axios, Prisma, GraphQL, AWS, and Docker, Eventopia delivers high performance and scalability. With server-side rendering (SSR) for enhanced speed and efficiency, Eventopia provides robust features for event scheduling, registration, attendee tracking, and real-time updates. This comprehensive solution ensures a seamless and efficient event management experience, catering to the diverse needs of administrators and participants.",
+    "Eventopia is advanced software designed to automate and streamline institutional event management. Built with the MERN stack, Reactstrap, Nest.js, Next.js, JWT, Redux, Axios, Prisma, GraphQL, AWS, and Docker, it offers high performance and scalability with server-side rendering (SSR). Key features include event scheduling, registration, attendee tracking, and real-time updates, providing a seamless and efficient experience for administrators and participants.",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8D-qrXbEW2NWM8bal99w2uRF7YKrL6KMZTcHgan-U9A&s",
     tags: ["Next.js", "MongoDB", "GraphQL", "AWS", "Docker", "Redux", "JWT", "Prisma", "Axios", "Reactstrap", "Nest.js", "MERN Stack", "SSR"],
@@ -480,7 +480,7 @@ export const projects = [
     title: "Vyapaar Sampark",
     date: "Aug 2023 - Oct 2023",
     description:
-    "this project is related to a software that helps to manage the events of the college",
+    "Vypar Sampark is an agricultural eCommerce platform designed to sell and manage agricultural products within the state. Developed using the Divi Builder on WordPress, it offers an intuitive and user-friendly interface for farmers and buyers. The platform facilitates seamless transactions, inventory management, and product listings, providing a comprehensive solution to enhance the agricultural market and connect producers with consumers efficiently.",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8D-qrXbEW2NWM8bal99w2uRF7YKrL6KMZTcHgan-U9A&s",
     tags: ["React Js", "Rest API"],
@@ -492,7 +492,7 @@ export const projects = [
     title: "Buy Bee",
     date: "Aug 2023 - Oct 2023",
     description:
-    "this project is related to a software that helps to manage the events of the college",
+    "BuyyBee is a comprehensive eCommerce platform developed to sell and manage a wide range of products, similar to Amazon. Built using Elementor on WordPress, BuyyBee features a user-friendly interface and is optimized for search engines, ensuring high visibility and easy navigation for users. The platform supports seamless product listings, inventory management, and secure transactions, providing a robust solution for both sellers and buyers.",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8D-qrXbEW2NWM8bal99w2uRF7YKrL6KMZTcHgan-U9A&s",
     tags: ["React Js", "Rest API"],
