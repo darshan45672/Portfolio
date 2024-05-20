@@ -483,7 +483,7 @@ export const projects = [
     "Vypar Sampark is an agricultural eCommerce platform designed to sell and manage agricultural products within the state. Developed using the Divi Builder on WordPress, it offers an intuitive and user-friendly interface for farmers and buyers. The platform facilitates seamless transactions, inventory management, and product listings, providing a comprehensive solution to enhance the agricultural market and connect producers with consumers efficiently.",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8D-qrXbEW2NWM8bal99w2uRF7YKrL6KMZTcHgan-U9A&s",
-    tags: ["React Js", "Rest API"],
+    tags: ["Wordpress", "Divi Builder", "e-Commerce", "Agriculture", "SEO"],
     category: "wordpress",
     github: "",
     webapp: "https://vyaparsampark.com/",
@@ -495,7 +495,7 @@ export const projects = [
     "BuyyBee is a comprehensive eCommerce platform developed to sell and manage a wide range of products, similar to Amazon. Built using Elementor on WordPress, BuyyBee features a user-friendly interface and is optimized for search engines, ensuring high visibility and easy navigation for users. The platform supports seamless product listings, inventory management, and secure transactions, providing a robust solution for both sellers and buyers.",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8D-qrXbEW2NWM8bal99w2uRF7YKrL6KMZTcHgan-U9A&s",
-    tags: ["React Js", "Rest API"],
+    tags: ["Wordpress", "Elementor", "e-Commerce", "SEO"],
     category: "wordpress",
     github: "",
     webapp: "https://buyybee.com/",
@@ -507,7 +507,7 @@ export const projects = [
     "Shobha Digitals is a beautifully designed portfolio site created to showcase photography and attract more clients. Developed using the Divi Builder on WordPress, it features an elegant and visually appealing layout. The site is optimized for search engines, ensuring high visibility, and is built to scale efficiently with excellent load times. Shobha Digitals offers a seamless user experience, making it an ideal platform for photographers to display their work and connect with potential clients.",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8D-qrXbEW2NWM8bal99w2uRF7YKrL6KMZTcHgan-U9A&s",
-    tags: ["React Js", "Rest API"],
+    tags: ["Wordpress", "Divi Builder", "Photography", "Portfolio", "SEO", "Load Time Optimization"],
     category: "wordpress",
     github: "https://github.com/Ahmadmidlaj/VideoStreamingApp",
     webapp: "https://lovely-sprinkles-7289fd.netlify.app/",
