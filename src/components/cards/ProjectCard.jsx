@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const Card = styled.div`
   width: 330px;
-  height: 415px;
+  height: 455px;
   background-color: ${({ theme }) => theme.card};
   cursor: pointer;
   border-radius: 10px;
