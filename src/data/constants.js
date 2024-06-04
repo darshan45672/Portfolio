@@ -521,5 +521,15 @@ export const projects = [
     category: "static",
     github: "", 
     webapp: "https://lovely-sprinkles-7289fd.netlify.app/",
+  },{
+    id: 7,
+    title: "My Personnel Blog site",
+    date: "June 2024",
+    description:"this project is related to a software that helps to manage the events of the college",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8D-qrXbEW2NWM8bal99w2uRF7YKrL6KMZTcHgan-U9A&s",
+    tags: ["Astro Js", "Tailwind"],
+    category: "static",
+    github: "",
+    webapp: "https://lovely-sprinkles-7289fd.netlify.app/",
   }
 ];
