@@ -428,7 +428,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8D-qrXbEW2NWM8bal99w2uRF7YKrL6KMZTcHgan-U9A&s",
+    img: "https://github.com/user-attachments/assets/ddf20abc-0f54-4c2e-945d-797ee86c6ded",
     school: "Holy Family English Medium School, Surathkal",
     date: " 2018 - 2019",
     grade: "91.16%",
@@ -445,7 +445,7 @@ export const projects = [
     description:
     "The Blood Bank and Donor Management System is a web application developed using PHP, Bootstrap, and MySQL to streamline the process of managing blood donations and donor information. It offers an intuitive interface for both administrators and donors, featuring functionalities like donor registration, blood inventory management, appointment scheduling, and automated notifications. The system facilitates efficient matching of donors with recipients based on blood type and location, while also providing detailed reporting and analytics to support blood donation campaigns and inventory management. This solution aims to enhance the operational efficiency of blood banks and ensure a steady supply of blood for those in need.",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8D-qrXbEW2NWM8bal99w2uRF7YKrL6KMZTcHgan-U9A&s",
+      "https://github.com/user-attachments/assets/ddf20abc-0f54-4c2e-945d-797ee86c6ded",
     tags: ["PHP", "MySQL", "Bootstrap"],
     category: "web app",
     github: "https://github.com/darshan45672/Blood-Bank-and-Donor-Management-system",
@@ -458,7 +458,7 @@ export const projects = [
     description:
     "Yoojak is a placement management portal designed to automate the placement process and reduce manual work. Developed using Laravel 11, Livewire, Filament, and MySQL, Yoojak offers scalability and flexibility to efficiently manage placement activities. It streamlines tasks such as student registrations, job postings, application tracking, and interview scheduling, providing a seamless experience for administrators, students, and recruiters. By leveraging modern web technologies, Yoojak ensures a reliable and user-friendly platform for managing campus placements",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8D-qrXbEW2NWM8bal99w2uRF7YKrL6KMZTcHgan-U9A&s",
+      "https://github.com/user-attachments/assets/ddf20abc-0f54-4c2e-945d-797ee86c6ded",
     tags: ["Laravel 11", "Livewire", "Filament", "MySQL"],
     category: "web app",
     github: "https://github.com/darshan45672/Yoojak",
@@ -470,7 +470,7 @@ export const projects = [
     description:
     "Eventopia is advanced software designed to automate and streamline institutional event management. Built with the MERN stack, Reactstrap, Nest.js, Next.js, JWT, Redux, Axios, Prisma, GraphQL, AWS, and Docker, it offers high performance and scalability with server-side rendering (SSR). Key features include event scheduling, registration, attendee tracking, and real-time updates, providing a seamless and efficient experience for administrators and participants.",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8D-qrXbEW2NWM8bal99w2uRF7YKrL6KMZTcHgan-U9A&s",
+      "https://github.com/user-attachments/assets/ddf20abc-0f54-4c2e-945d-797ee86c6ded",
     tags: ["Next.js", "MongoDB", "GraphQL", "AWS", "Docker", "Redux", "JWT", "Prisma", "Axios", "Reactstrap", "Nest.js", "MERN Stack", "SSR"],
     category: "web app",
     github: "https://github.com/darshan45672/Eventopia",
@@ -482,7 +482,7 @@ export const projects = [
     description:
     "Vypar Sampark is an agricultural eCommerce platform designed to sell and manage agricultural products within the state. Developed using the Divi Builder on WordPress, it offers an intuitive and user-friendly interface for farmers and buyers. The platform facilitates seamless transactions, inventory management, and product listings, providing a comprehensive solution to enhance the agricultural market and connect producers with consumers efficiently.",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8D-qrXbEW2NWM8bal99w2uRF7YKrL6KMZTcHgan-U9A&s",
+      "https://github.com/user-attachments/assets/ddf20abc-0f54-4c2e-945d-797ee86c6ded",
     tags: ["Wordpress", "Divi Builder", "e-Commerce", "Agriculture", "SEO"],
     category: "wordpress",
     github: "",
@@ -494,7 +494,7 @@ export const projects = [
     description:
     "BuyyBee is a comprehensive eCommerce platform developed to sell and manage a wide range of products, similar to Amazon. Built using Elementor on WordPress, BuyyBee features a user-friendly interface and is optimized for search engines, ensuring high visibility and easy navigation for users. The platform supports seamless product listings, inventory management, and secure transactions, providing a robust solution for both sellers and buyers.",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8D-qrXbEW2NWM8bal99w2uRF7YKrL6KMZTcHgan-U9A&s",
+      "https://github.com/user-attachments/assets/ddf20abc-0f54-4c2e-945d-797ee86c6ded",
     tags: ["Wordpress", "Elementor", "e-Commerce", "SEO"],
     category: "wordpress",
     github: "",
@@ -506,7 +506,7 @@ export const projects = [
     description:
     "Shobha Digitals is a beautifully designed portfolio site created to showcase photography and attract more clients. Developed using the Divi Builder on WordPress, it features an elegant and visually appealing layout. The site is optimized for search engines, ensuring high visibility, and is built to scale efficiently with excellent load times. Shobha Digitals offers a seamless user experience, making it an ideal platform for photographers to display their work and connect with potential clients.",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8D-qrXbEW2NWM8bal99w2uRF7YKrL6KMZTcHgan-U9A&s",
+      "https://github.com/user-attachments/assets/ddf20abc-0f54-4c2e-945d-797ee86c6ded",
     tags: ["Wordpress", "Divi Builder", "Photography", "Portfolio", "SEO", "Load Time Optimization"],
     category: "wordpress",
     github: "https://github.com/Ahmadmidlaj/VideoStreamingApp",
@@ -516,7 +516,7 @@ export const projects = [
     title: "Portfolio",
     date: "Aug 2023 - Oct 2023",
     description:"this project is related to a software that helps to manage the events of the college",
-    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8D-qrXbEW2NWM8bal99w2uRF7YKrL6KMZTcHgan-U9A&s",
+    image:"https://github.com/user-attachments/assets/ddf20abc-0f54-4c2e-945d-797ee86c6ded",
     tags: ["React Js", "Rest API"],
     category: "static",
     github: "", 
@@ -526,7 +526,7 @@ export const projects = [
     title: "My Personnel Blog site",
     date: "June 2024",
     description:"this project is related to a software that helps to manage the events of the college",
-    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8D-qrXbEW2NWM8bal99w2uRF7YKrL6KMZTcHgan-U9A&s",
+    image:"https://github.com/user-attachments/assets/ddf20abc-0f54-4c2e-945d-797ee86c6ded",
     tags: ["Astro Js", "Tailwind"],
     category: "static",
     github: "",
