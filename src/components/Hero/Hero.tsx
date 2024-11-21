@@ -6,6 +6,7 @@ import linkedin from '../../assets/linkedin.svg'
 import githubIcon from '../../assets/github.png'
 import Hello from '../../assets/Hello.gif'
 import XIcon from '../../assets/x.png'
+import Instagram from '../../assets/instagram.png'
 
 export function Hero() {
   return (
@@ -49,6 +50,13 @@ export function Hero() {
           rel="noreferrer noopener"
         >
           <img src={XIcon} alt="X" />
+        </a>
+        <a
+          href="https://www.instagram.com/darshan._bhandary/"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <img src={Instagram} alt="instagram" />
         </a>
         </div>
         </ScrollAnimation>
